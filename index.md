@@ -9,7 +9,7 @@ tagline: Supporting tagline
     <div class="row">
      <div>
         <div class="search-bar affix" data-spy="affix" data-offset-top="30">
-            <input class='search-control' id="searchMonsters" placeholder='输入线索或者妖怪名字'></input>
+            <input class='search-control' id="searchMonsters" placeholder='输入线索或者妖怪名字' />
               <span class="icon search"></span>
         </div>
       </div>
@@ -2608,3 +2608,7 @@ tagline: Supporting tagline
     </div>
 
 </div>
+
+<script type="text/javascript">
+   $(function(){ bind()});
+</script>
